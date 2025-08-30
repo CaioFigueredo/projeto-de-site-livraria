@@ -7,7 +7,8 @@
     <style>
         body
         {
-    
+            padding: 0%;
+            margin: 0%;
         }
         div#main-title
         {
@@ -41,6 +42,7 @@
         {
             max-width: 100%;
             width: 100%;
+            max-height: 50vh;
         }
         
         section#main-image
@@ -54,21 +56,116 @@
             margin-top: 15px;
             
             width: 100%;
-            height: 100px;
+            height: 4vh;
             display: flex;
             flex-wrap: wrap;
         }
 
-        .sphere
+        div.sphere
         {
             background-color: black;
             margin-left: 30px;
-            height: 4vh;
-            width: 4vh;
+            height: 6vh;
+            width: 6vh;
             border-radius: 100%;
+        }
+
+        section#first-book
+        {
+            height: 40vh;
+            margin-top: 10vh;
+            display: flex;
+            gap: 70px;
+            text-align: justify;
+            padding: 20px;
+            border: 1px solid black;
+            align-items: center;
+
+            background-image: url(images/Whispers\ of\ the\ forest\ 🙏.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        
+        div#first-book-text
+        {
+            
+            color: black;
+            font-size: 20px;
+            font-weight: 530;
+            width: 110vh;
             
         }
 
+        section#second-book
+        {
+            height: 40vh;
+            margin-top: 10vh;
+            display: flex;
+            gap: 50px;
+            text-align: justify;
+            padding: 10px;
+            border: 1px solid black;
+            align-items: center;
+            justify-content: right;
+
+            background-image: url(images/heaven.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+         div#second-book-text
+        {
+            
+            color: black;
+            font-size: 20px;
+            font-weight: 530;
+            width: 110vh;
+            
+        }
+
+        section#third-book
+        {
+            height: 40vh;
+            margin-top: 10vh;
+            display: flex;
+            gap: 70px;
+            text-align: justify;
+            padding: 20px;
+            border: 1px solid black;
+            align-items: center;
+
+            background-image: url(images/↷﹒✧﹒banner.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+         div#third-book-text
+        {
+            
+            color: black;
+            font-size: 20px;
+            font-weight: 530;
+            width: 110vh;
+            
+        }
+
+        footer
+        {
+            margin-top: 10vh;
+            border: 1px solid black;
+            display: flex;
+            padding: 10px;
+            gap: 30px;
+        }
+
+        footer > div
+        {
+            text-align: justify;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
@@ -115,7 +212,78 @@
         <div class="sphere">
             
         </div>
-        
     </section>
+    <section id="first-book">
+        <div id="first-book-image" class="item">
+            <img src="images/O senhor dos anéis.png" alt="">
+        </div>
+        <div id="first-book-text" class="item">
+            <blockquote>
+                <i>
+                    "Os outros se jogaram sobre a relva cheirosa, mas Frodo continuou de pé por uns
+momentos, ainda pasmo e admirado. Tinha a impressão de ter atravessado uma janela alta
+que dava para um mundo desaparecido. Havia uma luz sobre esse mundo que não podia
+ser descrita na língua dele. Tudo o que via parecia harmonioso, mas as formas pareciam
+novas, como se tivessem sido concebidas e desenhadas no momento em que lhe tiraram a
+venda dos olhos, e ao mesmo tempo antigas, como se tivessem existido desde sempre.
+Frodo não viu cores diferentes das que conhecia, dourado e branco e azul e verde, mas
+eram novas e pungentes, como se naquele mesmo momento as tivesse percebido pela
+primeira vez, dando-lhes nomes novos e maravilhosos. Naquela região, no inverno, ninguém podia sentir saudade do verão ou da
+primavera. Não se podia ver qualquer defeito ou doença ou deformidade em cada uma das coisas que cresciam sobre a terra. Não havia manchas na terra de Lórien.""
+                </i>
+            </blockquote>
+        </div>
+    </section>
+    <section id="second-book">
+        <div id="second-book-text" class="item">
+           <blockquote>
+                <i>
+                    "Assim eu ante a nova visão pura
+Ver anelara como a image’ humana
+Ao círculo se adapta e ali perdura.
+
+Às asas minhas fora empresa insana,
+Se clareado a mente não me houvesse
+Fulgor, que a posse da verdade aplanar.
+
+À fantasia aqui valor fenece;
+Mas a vontade minha a idéias belas,
+Qual roda, que ao motor pronta obedece,
+
+Volvia o Amor, que move sol e estrelas."
+                </i>
+           </blockquote>
+        </div>
+        <div id="second-book-image" class="item">
+            <img src="images/Editora 34.png" alt="">
+        </div>
+    </section>
+    <section id="third-book">
+        <div id="third-book-image" class="item">
+            <img src="images/Harry Potter e as reliquias da morte_.png" alt="">
+        </div>
+        <div id="third-book-text" class="item">
+            <blockquote>
+                <i>
+                    "Embora a Morte procurasse o terceiro irmão durante muitos anos, jamais
+ conseguiu encontrá-lo. Somente quando atingiu uma idade avançada foi que
+ o irmão mais moço despiu a Capa da Invisibilidade e deu-a de presente ao
+ filho. Acolheu, então, a Morte como uma velha amiga e acompanhou-a de
+ bom grado, e, iguais, partiram desta vida."
+                </i>
+            </blockquote>
+        </div>
+    </section>
+    <footer>
+        <div id="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequuntur consequatur veniam totam deleniti. Laborum incidunt nulla, quas molestias voluptates, vitae animi doloribus, veniam et unde exercitationem consequuntur illo minus!</p>
+        </div>
+        <div id="cool-links">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque adipisci perspiciatis ut veniam officiis et at ducimus quaerat reiciendis ipsum laudantium iure hic quos? Nulla pariatur deserunt rerum dolores!</p>
+        </div>
+        <div id="legal-rights">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officiis ullam, autem numquam voluptas minima magni consectetur optio eius excepturi, at neque natus modi quis doloribus ut, quam iste ipsum.</p>
+        </div>
+    </footer>
 </body>
 </html>
