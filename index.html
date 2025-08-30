@@ -175,6 +175,33 @@
             text-align: justify;
             font-size: 20px;
         }
+
+        @media (max-width: 768px) {
+    section#first-book,
+    section#second-book,
+    section#third-book {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section#first-book img,
+    section#second-book img,
+    section#third-book img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    div#first-book-text,
+    div#second-book-text,
+    div#third-book-text {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
     </style>
 </head>
 <body>
