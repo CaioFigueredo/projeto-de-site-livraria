@@ -3,8 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Rivendell.</title>
+    <style>
+        :root
+        {
+            --cor-especial: #012340;
+        }
+        body
+        {
+            padding: 0%;
+            margin: 0%;
+        }
+        div#main-title
+        {
+            background-color: var(--cor-especial);
+            color: white;
+            padding: 10px;
+        }
+
+        div#main-title > h1
+        {
+            font-size: 50px;
+            margin-left: 20px;
+        }
+
+        div#main-links
+        {
+            background-color:  #012340;
+            border-bottom: 1px solid grey;
+            display: flex;
+            padding: 10px;
+            font-size: 20px;
+        }
+        
+        div.link-for-ml
+        {
+            margin-left: 20px;
+        }
+
+        div.link-for-ml > a
+        {
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        div.link-for-ml > a:hover
+        {
+            text-decoration: underline;
+            color: rgb(83, 83, 83);
+        }
+
+        img#img-eva
+        {
+            max-width: 100%;
+            width: 100%;
+            max-height: 50vh;
+        }
+        
+        section#main-image
+        {
+            background-color:  #012340;
+            padding: 2%;   
+        }
+
+        section#spheres
+        {
+            margin-top: 15px;
+            
+            width: 100%;
+            height: 4vh;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        div.sphere
+        {
+            background-color: #012340;
+            margin-left: 30px;
+            height: 6vh;
+            width: 6vh;
+            border-radius: 100%;
+        }
+
+        section#first-book
+        {
+            min-height: 40vh;
+            height: auto;
+            flex-wrap: wrap;
+            margin-top: 10vh;
+            display: flex;
+            gap: 70px;
+            text-align: justify;
+            padding: 20px;
+            align-items: center;
+
+            background-image: url(images/Whispers\ of\ the\ forest\ 🙏.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        
+        div#first-book-text
+        {
+            
+            color: black;
+            font-size: 20px;
+            font-weight: 530;
+            width: 100%;
+            max-width: 600px;
+            
+        }
+
+        section#second-book
+        {
+            min-height: 40vh;
+            height: auto;
+            flex-wrap: wrap;
+            margin-top: 10vh;
+            display: flex;
+            gap: 50px;
+            text-align: justify;
+            padding: 10px;            
+            align-items: center;
+            justify-content: right;
+
+            background-image: url(images/heaven.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+         div#second-book-text
+        {
+            
+            color: black;
+            font-size: 20px;
+            font-weight: 530;
+            width: 100%;
+            max-width: 600px;
+            
+        }
+
+        section#third-book
+        {
+            min-height: 40vh;
+            height: auto;
+            flex-wrap: wrap;
+            margin-top: 10vh;
+            display: flex;
+            gap: 70px;
+            text-align: justify;
+            padding: 20px;
+            align-items: center;
+
+            background-image: url(images/↷﹒✧﹒banner.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+         div#third-book-text
+        {
+            
+            color: black;
+            font-size: 20px;
+            font-weight: 530;
+            width: 100%;
+            max-width: 600px;
+            
+        }
+
+        footer
+        {
+            background-color: #012340;
+            color: white;
+            margin-top: 10vh;
+            border-bottom: 1px solid grey;
+            display: flex;
+            padding: 50px;
+            gap: 50px;
+            justify-content: space-around;
+            
+        }
+
+        footer > div
+        {
+            text-align: justify;
+            font-size: 20px;
+            width: 500px;
+            
+        }
+
+        #copyright
+        {
+            color: white;
+            background-color: #012340;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div#cool-links > a
+        {
+            text-decoration: none;
+        }
+
+        
+    </style>
 </head>
 <body>
     <header>
@@ -29,18 +234,6 @@
         </div>
     </section>
     <section id="spheres">
-        <div class="sphere">
-            
-        </div>
-        <div class="sphere">
-            
-        </div>
-        <div class="sphere">
-            
-        </div>
-        <div class="sphere">
-            
-        </div>
         <div class="sphere">
             
         </div>
@@ -113,15 +306,36 @@ Volvia o Amor, que move sol e estrelas."
         </div>
     </section>
     <footer>
-        <div id="description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequuntur consequatur veniam totam deleniti. Laborum incidunt nulla, quas molestias voluptates, vitae animi doloribus, veniam et unde exercitationem consequuntur illo minus!</p>
+        <div id="description" class="footer-item">
+            <p>
+               O projeto Site de Livraria foi desenvolvido em 2025 para treino de html e css, sem a adição do backend em javascript.  
+            </p>
         </div>
-        <div id="cool-links">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, doloremque adipisci perspiciatis ut veniam officiis et at ducimus quaerat reiciendis ipsum laudantium iure hic quos? Nulla pariatur deserunt rerum dolores!</p>
+        <div id="cool-links" class="footer-item">
+            <ul>
+                <li>
+                    <a href="https://www.editora34.com.br/?srsltid=AfmBOoruqv099FhnlimD0A7Nisdu6NdJa1loVrRZhVHDUoPKUiNrubbK">
+                        Editora 34.
+                    </a>
+                </li>
+                <li>
+                    <a href="https://rocco.com.br/rocco/">
+                        Editora Rocco.
+                    </a>
+                </li>
+                <li>
+                    <a href="https://harpercollins.com.br/">
+                        Editora Harper Collins.
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div id="legal-rights">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officiis ullam, autem numquam voluptas minima magni consectetur optio eius excepturi, at neque natus modi quis doloribus ut, quam iste ipsum.</p>
+        <div id="legal-rights" class="footer-item">
+            <p>Todo o conteúdo apresentado neste material pertence aos seus respectivos autores e detentores de direitos. Não reivindicamos a propriedade intelectual de nenhuma obra, imagem, texto, áudio ou vídeo utilizado, cujo uso é feito com base em fins informativos, educacionais ou sem fins lucrativos.</p>
         </div>
     </footer>
+    <div id="copyright">
+        <p>2025 Nome do Autor ou Empresa. Todos os direitos reservados.</p>
+    </div>
 </body>
 </html>
